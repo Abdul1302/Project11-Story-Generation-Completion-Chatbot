@@ -1,1 +1,0 @@
-# story-generation-completion-ITSOLERA-project2
