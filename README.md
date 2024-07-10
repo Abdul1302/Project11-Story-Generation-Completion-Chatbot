@@ -1,22 +1,24 @@
 # Story Generation & Completion ChatBot
 
 ## Overview
-This project aims to create a story generation and completion chatbot that can generate complete stories and complete partial ones. The core of the project is based on the **LLaMA-3 model**, which is highly effective for creating chatbots. Through prompt engineering, various story-related features were incorporated to enhance the user experience.
+  This project aims to create a story generation and completion chatbot that can generate complete stories and complete partial ones. The core of the project is based on the 
+  **LLaMA-3 model**, which is highly effective for creating chatbots. Through prompt engineering, various story-related features were incorporated to enhance the user 
+  experience.
 
 ## Features
-The chatbot offers the following features:
-
-1. Story Plot
-2. Story Length
-3. Creativity
-4. Narrative Perspective
-5. Genre
-6. Character Name
-7. Character Description
-8. Setting Description
+  The chatbot offers the following features:
+  
+  1. Story Plot
+  2. Story Length
+  3. Creativity
+  4. Narrative Perspective
+  5. Genre
+  6. Character Name
+  7. Character Description
+  8. Setting Description
 
   
-  ## Technology Stack
+## Technology Stack
   
   ### Backend
   **LLaMA-3 Model:** Utilized for its superior capabilities in chatbot creation and story generation.
@@ -41,9 +43,16 @@ The chatbot offers the following features:
   
   ### 2. UI Development
 
-#### Streamlit:
+  #### Streamlit:
   Developed an eye-catching and user-friendly interface using Streamlit, making it easy for users to interact with the chatbot.
 
-#### Next.js with TypeScript and Tailwind CSS:
+  #### Next.js with TypeScript and Tailwind CSS:
   Created a robust and responsive UI using the Next.js framework.
   Integrated the model and UI code using FastAPI, ensuring that the model's output is displayed effectively in the UI.
+
+## Acknowledgements
+  **LLaMA-3** for providing the powerful model.
+  **LangChain** for enabling effective prompt engineering.
+  **Streamlit and Next.js** for the front end development platforms.
+  **FastAPI** for the backend integration.
+
