@@ -16,34 +16,34 @@ The chatbot offers the following features:
 8. Setting Description
 
   
-## Technology Stack
-
-### Backend
-    **LLaMA-3 Model:** Utilized for its superior capabilities in chatbot creation and story generation.
-    **LangChain:** Employed for effective prompt engineering to achieve the desired functionality.
-    **FastAPI:** Used to integrate the model code with the UI code, ensuring seamless communication between the backend and the front end.
-
-### Frontend
-We implemented two methods for the UI:
-
+  ## Technology Stack
+  
+  ### Backend
+  **LLaMA-3 Model:** Utilized for its superior capabilities in chatbot creation and story generation.
+  **LangChain:** Employed for effective prompt engineering to achieve the desired functionality.
+  **FastAPI:** Used to integrate the model code with the UI code, ensuring seamless communication between the backend and the front end.
+  
+  ### Frontend
+  We implemented two methods for the UI:
+  
   #### 1. Streamlit:
-      Provides an attractive and user-friendly interface.
+  Provides an attractive and user-friendly interface.
   
   #### 2. Next.js (TypeScript):
-      Utilized for creating a modern, responsive UI.
-      Tailwind CSS: Used for styling to ensure the interface is visually appealing and consistent.
-
-## Implementation Details
-
+  Utilized for creating a modern, responsive UI.
+  Tailwind CSS: Used for styling to ensure the interface is visually appealing and consistent.
+  
+  ## Implementation Details
+  
   ### 1. Prompt Engineering
-      Prompt engineering was a crucial part of this project. By fine-tuning prompts, we were able to incorporate features such as story plot, length, creativity, narrative 
-      perspective, genre, character details, and setting descriptions.
+  Prompt engineering was a crucial part of this project. By fine-tuning prompts, we were able to incorporate features such as story plot, length, creativity, narrative 
+  perspective, genre, character details, and setting descriptions.
   
   ### 2. UI Development
-     
-      #### Streamlit:
-        Developed an eye-catching and user-friendly interface using Streamlit, making it easy for users to interact with the chatbot.
-      
-      #### Next.js with TypeScript and Tailwind CSS:
-        Created a robust and responsive UI using the Next.js framework.
-        Integrated the model and UI code using FastAPI, ensuring that the model's output is displayed effectively in the UI.
+
+#### Streamlit:
+  Developed an eye-catching and user-friendly interface using Streamlit, making it easy for users to interact with the chatbot.
+
+#### Next.js with TypeScript and Tailwind CSS:
+  Created a robust and responsive UI using the Next.js framework.
+  Integrated the model and UI code using FastAPI, ensuring that the model's output is displayed effectively in the UI.
