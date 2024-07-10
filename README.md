@@ -21,9 +21,9 @@
 ## Technology Stack
   
   ### Backend
-  **LLaMA-3 Model:** Utilized for its superior capabilities in chatbot creation and story generation.
-  **LangChain:** Employed for effective prompt engineering to achieve the desired functionality.
-  **FastAPI:** Used to integrate the model code with the UI code, ensuring seamless communication between the backend and the front end.
+  1. **LLaMA-3 Model:** Utilized for its superior capabilities in chatbot creation and story generation.
+  2. **LangChain:** Employed for effective prompt engineering to achieve the desired functionality.
+  3. **FastAPI:** Used to integrate the model code with the UI code, ensuring seamless communication between the backend and the front end.
   
   ### Frontend
   We implemented two methods for the UI:
